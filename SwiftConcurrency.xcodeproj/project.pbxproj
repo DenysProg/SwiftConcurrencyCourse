@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C25F8F0E2A38572200F37F4A /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F8F0D2A38572200F37F4A /* AsyncAwaitBootcamp.swift */; };
+		C25F8F102A38672200F37F4A /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F8F0F2A38672200F37F4A /* TaskBootcamp.swift */; };
 		C26EEFDB2A29BD7A00CC609A /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EEFDA2A29BD7A00CC609A /* SwiftConcurrencyApp.swift */; };
 		C26EEFDD2A29BD7A00CC609A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EEFDC2A29BD7A00CC609A /* ContentView.swift */; };
 		C26EEFDF2A29BD7B00CC609A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26EEFDE2A29BD7B00CC609A /* Assets.xcassets */; };
 		C26EEFE22A29BD7B00CC609A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26EEFE12A29BD7B00CC609A /* Preview Assets.xcassets */; };
 		C26EEFE92A29C02B00CC609A /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EEFE82A29C02B00CC609A /* DoCatchTryThrowsBootcamp.swift */; };
+		C2B015872A36EBDC000EDB4D /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B015862A36EBDC000EDB4D /* DownloadImageAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C25F8F0D2A38572200F37F4A /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
+		C25F8F0F2A38672200F37F4A /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
 		C26EEFD72A29BD7A00CC609A /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26EEFDA2A29BD7A00CC609A /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		C26EEFDC2A29BD7A00CC609A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C26EEFDE2A29BD7B00CC609A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C26EEFE12A29BD7B00CC609A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C26EEFE82A29C02B00CC609A /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
+		C2B015862A36EBDC000EDB4D /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				C26EEFDA2A29BD7A00CC609A /* SwiftConcurrencyApp.swift */,
 				C26EEFDC2A29BD7A00CC609A /* ContentView.swift */,
 				C26EEFE82A29C02B00CC609A /* DoCatchTryThrowsBootcamp.swift */,
+				C2B015862A36EBDC000EDB4D /* DownloadImageAsync.swift */,
+				C25F8F0D2A38572200F37F4A /* AsyncAwaitBootcamp.swift */,
+				C25F8F0F2A38672200F37F4A /* TaskBootcamp.swift */,
 				C26EEFDE2A29BD7B00CC609A /* Assets.xcassets */,
 				C26EEFE02A29BD7B00CC609A /* Preview Content */,
 			);
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B015872A36EBDC000EDB4D /* DownloadImageAsync.swift in Sources */,
 				C26EEFE92A29C02B00CC609A /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				C26EEFDD2A29BD7A00CC609A /* ContentView.swift in Sources */,
+				C25F8F102A38672200F37F4A /* TaskBootcamp.swift in Sources */,
+				C25F8F0E2A38572200F37F4A /* AsyncAwaitBootcamp.swift in Sources */,
 				C26EEFDB2A29BD7A00CC609A /* SwiftConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
