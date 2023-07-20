@@ -33,20 +33,12 @@ class AsyncPublisherBootcampViewModel: ObservableObject {
     
     private func addSubscribers() {
         Task {
-            await MainActor.run(body: {
-                self.dataArray = ["One"]
-            })
-            
             
             for await value in manager.$myData.values {
                 await MainActor.run(body: {
-//                    self.dataArray = value
+                    self.dataArray = value
                 })
             }
-            
-            await MainActor.run(body: {
-                self.dataArray = ["Two"]
-            })
         }
 //        manager.$myData
 //            .receive(on: DispatchQueue.main)
